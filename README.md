@@ -29,7 +29,9 @@ They are looking for tech-savvy content writers who are passionate about APIs, d
 ## Part-time jobs
 
 
+
 ## Full-time jobs
+
 
 
 ## Event / Meet up
@@ -40,3 +42,5 @@ They are looking for tech-savvy content writers who are passionate about APIs, d
 
 
 ## Resources 
+- [Nine Best Writing Tools](https://wise4rmgodadmob.medium.com/nine-best-writing-tools-db92853519f6)
+
