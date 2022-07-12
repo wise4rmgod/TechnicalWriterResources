@@ -81,6 +81,15 @@
 **Posted on:** July 12, 2022
 
 
+- [Amazon](https://www.amazon.jobs/en/jobs/2141704/technical-writer-appstore-developer-research-and-education?no_int_redir=1)
+
+**Job Location:** USA
+
+**Level:** Senior
+
+**Posted on:** July 12, 2022
+
+
 
 
 ## Event / Meet up
