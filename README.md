@@ -25,6 +25,10 @@ They will like to hear from freelancers who are available to start immediately a
 
 They are looking for tech-savvy content writers who are passionate about APIs, data analytics, cloud infrastructures and similar technical topics. 
 
+- [Goldcast]([https://railsware.com/careers/](https://jobs.lever.co/goldcast/454bbf41-a1ab-4b7c-b911-fc298b70d05a/apply)
+
+Goldcast is looking for an experienced Technical Writer to join the team and help take customer-centric services to new heights. As an ideal candidate, you have proven experience communicating complex features and instructions to non-technical audiences.
+
 
 ## Part-time jobs
 
@@ -33,10 +37,56 @@ They are looking for tech-savvy content writers who are passionate about APIs, d
 ## Full-time jobs
 
 
+- [Non fungible labs](https://apply.workable.com/non-fungible-labs/j/2C1B3831F1/)
+
+**Job Location:** Remote
+
+**Level:** Senior
+
+**Posted on:** July 12, 2022 
+
+- [Adyen](https://careers.adyen.com/vacancies/development/3760911/technical-writer) 
+
+**Job Location:** Remote
+
+**Level:** Senior
+
+**Posted on:** July 12, 2022 
+
+
+- [Platform.sh]()
+
+**Job Location:** Remote
+
+**Level:** Senior
+
+**Posted on:** July 12, 2022
+
+- [Jobscan](https://jobs.lever.co/jobscan-2/dfb2451a-73e7-4434-b98a-4d92104fb63e/apply)
+
+**Job Location:** Remote
+
+**Level:** Senior
+
+**Posted on:** July 12, 2022
+
+
+- [Fivetran](https://angel.co/company/fivetran/jobs/2277983-sr-technical-content-writer-enterprise)
+
+**Job Location:** Remote
+
+**Level:** Senior
+
+**Posted on:** July 12, 2022
+
 
 ## Event / Meet up
 
+- [Introduction to technical writing](https://lu.ma/ci8x94yw)
 
+**Date:** 15 July 2022
+
+**Time:** 8PM GMT+1
 
 
 
