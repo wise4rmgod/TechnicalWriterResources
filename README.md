@@ -25,7 +25,7 @@ They will like to hear from freelancers who are available to start immediately a
 
 They are looking for tech-savvy content writers who are passionate about APIs, data analytics, cloud infrastructures and similar technical topics. 
 
-- [Goldcast]([https://railsware.com/careers/](https://jobs.lever.co/goldcast/454bbf41-a1ab-4b7c-b911-fc298b70d05a/apply)
+- [Goldcast](https://jobs.lever.co/goldcast/454bbf41-a1ab-4b7c-b911-fc298b70d05a/apply)
 
 Goldcast is looking for an experienced Technical Writer to join the team and help take customer-centric services to new heights. As an ideal candidate, you have proven experience communicating complex features and instructions to non-technical audiences.
 
