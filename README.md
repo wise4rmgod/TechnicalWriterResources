@@ -96,4 +96,5 @@
 
 ## Resources 
 - [Nine Best Writing Tools](https://wise4rmgodadmob.medium.com/nine-best-writing-tools-db92853519f6)
+- [Contentre](https://contentre.io?source=github_resource): Contentre helps technical writers organize all their technical contents in one place, create multiple personalized portfolios,gain more clients and grow their technical writing career in one place.
 
