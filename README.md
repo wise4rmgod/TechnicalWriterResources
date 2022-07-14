@@ -87,8 +87,18 @@
 
 **Level:** Senior
 
-**Posted on:** July 12, 2022
+**Posted on:** July 13, 2022
 
+
+- [Veriff](https://www.veriff.com/careers/position/5969009002)
+
+**Job Location:** Remote
+
+**Relocation:** Yes
+
+**Level:** Senior
+
+**Posted on:** July 14, 2022
 
 
 
