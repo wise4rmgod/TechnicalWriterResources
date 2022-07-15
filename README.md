@@ -19,6 +19,11 @@
 
 > Codecov is seeking technical writers passionate about code quality, static code analysis, code coverage to write articles for our blog
 
+- [Digital Ocean](https://www.digitalocean.com/community/pages/write-for-digitalocean) $300 – $400 per article for first time authors
+
+> Digital Ocean are looking for technical writers to write on linux system administration, linux tools, docker tutorials, security topics and others. You can be a Digital Ocean writer by applying in their website.
+
+
 - [Goldcast](https://jobs.lever.co/goldcast/454bbf41-a1ab-4b7c-b911-fc298b70d05a/apply)
 
 > Goldcast is looking for an experienced Technical Writer to join the team and help take customer-centric services to new heights. As an ideal candidate, you have proven experience communicating complex features and instructions to non-technical audiences.
