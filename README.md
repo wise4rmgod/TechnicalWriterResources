@@ -89,7 +89,6 @@
 
 **Posted on:** July 13, 2022
 
-
 - [Veriff](https://www.veriff.com/careers/position/5969009002)
 
 **Job Location:** Remote
@@ -115,7 +114,12 @@
 
 ## Resources 
 - [Nine Best Writing Tools](https://wise4rmgodadmob.medium.com/nine-best-writing-tools-db92853519f6)
+
 - [Contentre](https://contentre.io?source=github_resource): Contentre helps technical writers organize all their technical contents in one place, create multiple personalized portfolios,gain more clients and grow their technical writing career in one place.
+
+- [Who Pays Technical Writers?](https://whopaystechnicalwriters.com) : A currated collection of active publishers, publications, blogs, and agencies that pay fair rates for high-quality technical content.
+
+- [Google Technical Writing Course](https://developers.google.com/tech-writing) : A collection of courses and learning resources aimed at improving your technical documentation.  
 
 ## Communities 
 
