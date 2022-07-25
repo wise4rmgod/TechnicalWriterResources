@@ -142,9 +142,9 @@
 
 ## Event / Meet up
 
-- [Introduction to technical writing](https://lu.ma/ci8x94yw)
+- [Technical writing tips for a successful interview](https://lu.ma/t4ou33z0)
 
-**Date:** 15 July 2022
+**Date:** 30th July 2022
 
 **Time:** 8PM GMT+1
 
