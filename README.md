@@ -45,30 +45,43 @@
 
 - [Adyen](https://careers.adyen.com/vacancies/development/3760911/technical-writer) 
 
+**Title:** Technical Writer
+
 **Job Location:** Remote
 
 **Level:** Senior
 
 **Posted on:** July 12, 2022 
+
+---
 
 - [Fivetran](https://angel.co/company/fivetran/jobs/2277983-sr-technical-content-writer-enterprise)
 
+**Title:** Technical Writer
+
 **Job Location:** Remote
 
 **Level:** Senior
 
 **Posted on:** July 12, 2022
+
+---
 
 - [Jobscan](https://jobs.lever.co/jobscan-2/dfb2451a-73e7-4434-b98a-4d92104fb63e/apply)
 
+**Title:** Technical Writer
+
 **Job Location:** Remote
 
 **Level:** Senior
 
 **Posted on:** July 12, 2022
 
+---
 
 - [Non fungible labs](https://apply.workable.com/non-fungible-labs/j/2C1B3831F1/)
+
+**Title:** Technical Writer
 
 **Job Location:** Remote
 
@@ -76,8 +89,11 @@
 
 **Posted on:** July 12, 2022 
 
+---
 
-- [Platform.sh]()
+- [Platform.sh](https://platform.sh/company/careers/job/?gh_jid=5954714002)
+
+**Title:** Senior Technical Writer
 
 **Job Location:** Remote
 
@@ -85,8 +101,11 @@
 
 **Posted on:** July 12, 2022
 
+---
 
 - [Amazon](https://www.amazon.jobs/en/jobs/2141704/technical-writer-appstore-developer-research-and-education?no_int_redir=1)
+
+**Title:** Technical Writer
 
 **Job Location:** USA
 
@@ -94,16 +113,31 @@
 
 **Posted on:** July 13, 2022
 
+---
+
 - [Veriff](https://www.veriff.com/careers/position/5969009002)
 
-**Job Location:** Remote
+**Title:** Technical Writer
 
-**Relocation:** Yes
+**Job Location:** Remote
 
 **Level:** Senior
 
 **Posted on:** July 14, 2022
 
+---
+
+- [Felt](https://jobs.writethedocs.org/job/866/contract-technical-documentation-writer/?utm_source=job-alert&utm_medium=email&utm_campaign=job-alert&alert_id=)
+
+**Title:** Contract Technical Documentation Writer 
+
+**Job Location:** Remote
+
+**Relocation:** No
+
+**Level:** Senior
+
+**Posted on:** July 25, 2022
 
 
 ## Event / Meet up
