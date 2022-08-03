@@ -1,0 +1,81 @@
+/*
+ * Paper
+ * A simple, clean, flexible Hugo theme
+ * https://github.com/nanxiaobei/hugo-paper
+ * Designed by 南小北 (https://lee.so/)
+ * Updated in 2022.7.20
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply h-full;
+  }
+
+  body {
+    -webkit-tap-highlight-color: transparent;
+    background: #fbfbfb;
+
+    @apply dark:bg-black;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded-full bg-black py-4 px-6 text-sm text-white no-underline shadow-lg duration-100 active:scale-95 dark:bg-white dark:text-black;
+  }
+
+  .link {
+    @apply duration-200 hover:text-black dark:hover:text-white;
+  }
+}
+
+@layer utilities {
+  .not-ready * {
+    @apply !transition-none;
+  }
+
+  .btn-menu::before,
+  .btn-menu::after {
+    @apply block h-[2px] w-5 bg-black duration-200 content-[''] dark:invert;
+  }
+
+  .nav-wrapper {
+    background: #fbfbfb;
+  }
+
+  .open {
+    @apply overflow-hidden;
+  }
+
+  .open .btn-menu::before {
+    @apply w-6 translate-y-[5.5px] rotate-45;
+  }
+
+  .open .btn-menu::after {
+    @apply w-6 -translate-y-[5.5px] -rotate-45;
+  }
+
+  .open .nav-wrapper {
+    @apply top-0;
+  }
+
+  article {
+    @apply text-lg leading-[1.9] text-black dark:text-white;
+  }
+
+  article pre {
+    @apply -mx-8 !p-8 shadow-lg;
+  }
+
+  article blockquote {
+    padding-left: calc(theme('space.8') - 3px) !important;
+    margin-left: calc(theme('space.8') * -1) !important;
+
+    @apply !border-black;
+  }
+}
