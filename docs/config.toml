@@ -1,0 +1,90 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'TWR'
+author = "Nwokocha Wisdom Maduabuchi"
+copyright = "Copyright © 2022, Wisdom Nwokocha all rights reserved."
+paginate = 5
+enableInlineShortcodes = true
+theme = "paper"
+
+[params]
+  twitter = 'joklinztech'
+  github = 'wise4rmgod'
+
+  avatar = 'wise4rmgod@gmail.com'
+  name = 'Technical Writing Resources'
+  bio = 'Updated list of full-time, contract and part-time technical writing jobs'
+
+# ------------------------------
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "youtube"
+    name = "Youtube"
+    url = "https://www.youtube.com/c/techtalkzzz"
+    weight = 10
+  [[menu.main]]
+    identifier = "communities"
+    name = "Communities"
+    url = "/communities/"
+    weight = 10
+  [[menu.main]]
+    identifier = "event"
+    name = "Event"
+    url = "/event/"
+    weight = 10
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 10
+  [[menu.main]]
+    identifier = "freelance"
+    name = "Freelance"
+    url = "/freelance/"
+    weight = 10
+  [[menu.main]]
+    identifier = "newsletter"
+    name = "Newsletter"
+    url = "https://www.getrevue.co/profile/wise4rmgod"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

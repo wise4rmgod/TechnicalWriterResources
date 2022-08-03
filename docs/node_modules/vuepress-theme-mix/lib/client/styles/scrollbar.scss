@@ -1,0 +1,94 @@
+.scrollbar {
+  overflow: hidden;
+  position: relative;
+  z-index: auto;
+  height: 100%;
+  width: 100%;
+  --scrollbar-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  --scrollbar-border-radius: 5px;
+  --scrollbar-width: 5px;
+  --scrollbar-height: 5px;
+
+  & > .scrollbar-container {
+    width: 100%;
+    overflow: scroll;
+    height: 100%;
+    max-height: inherit;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-track-piece,
+    &::-webkit-scrollbar-thumb {
+      width: 0;
+      height: 0;
+      display: none;
+    }
+
+    & > .scrollbar-content {
+      min-width: 100%;
+    }
+  }
+
+  .scrollbar-rail {
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+
+    & > .scrollbar-rail__scrollbar {
+      position: absolute;
+      cursor: pointer;
+      pointer-events: all;
+      background-color: var(--scrollbar-color);
+      transition: background-color 0.2s var(--scrollbar-bezier);
+
+      &:hover {
+        background-color: var(--scrollbar-color-hover);
+      }
+    }
+  }
+
+  .scrollbar-rail--vertical {
+    right: 4px;
+    top: 2px;
+    bottom: 2px;
+    width: var(--scrollbar-width);
+
+    & > .scrollbar-rail__scrollbar {
+      width: var(--scrollbar-width);
+      border-radius: var(--scrollbar-border-radius);
+      bottom: 0;
+
+      &.fade-in-transition-enter-active {
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      }
+      &.fade-in-transition-leave-active {
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      }
+      &.fade-in-transition-enter-from,
+      &.fade-in-transition-leave-to {
+        opacity: 0;
+      }
+      &.fade-in-transition-leave-from,
+      &.fade-in-transition-enter-to {
+        opacity: 1;
+      }
+    }
+  }
+
+  .scrollbar-rail--horizontal {
+    left: 2px;
+    right: 2px;
+    bottom: 4px;
+    height: var(--scrollbar-height);
+
+    & > .scrollbar-rail__scrollbar {
+      height: var(--scrollbar-height);
+      border-radius: var(--scrollbar-border-radius);
+      right: 0;
+    }
+  }
+
+  .scrollbar-rail--disabled > .scrollbar-rail__scrollbar {
+    pointer-events: none;
+  }
+}
