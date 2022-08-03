@@ -1,8 +1,9 @@
-baseURL = '/'
+baseURL = 'https://technicalwriterresources.pages.dev/'
 languageCode = 'en-us'
 title = 'TWR'
 author = "Nwokocha Wisdom Maduabuchi"
 copyright = "Copyright © 2022, Wisdom Nwokocha all rights reserved."
+relativeURLs = true
 paginate = 5
 enableInlineShortcodes = true
 missingContentMessage = "Page not found..."
