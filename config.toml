@@ -5,6 +5,8 @@ author = "Nwokocha Wisdom Maduabuchi"
 copyright = "Copyright © 2022, Wisdom Nwokocha all rights reserved."
 paginate = 5
 enableInlineShortcodes = true
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
 theme = "paper"
 
 [params]
