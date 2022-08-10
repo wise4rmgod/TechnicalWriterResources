@@ -7,7 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Wisdom Nwokocha all rights reserved.</copyright>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/tags/fulltime/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/tags/fulltime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Writer @ESLint</title>
+      <link>https://technicalwriterresources.pages.dev/post/eslint/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/eslint/</guid>
+      <description>Job Location: Remote
+Level: Senior
+ESLint is like spell check for code. Developers download ESLint more than 100M times each month to help find and fix problems in JavaScript and TypeScript code. Linters like ESLint give developers rapid feedback by pointing out problems interactively while editing code and automatically before changes are merged into projects. ESLint is used on more than 9M projects ranging from students learning to code to solo side projects to massive codebases at companies like Microsoft, Airbnb, Netflix, and Meta.</description>
+    </item>
+    
+    <item>
+      <title>Technical Writer @Payara</title>
+      <link>https://technicalwriterresources.pages.dev/post/payara/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/payara/</guid>
+      <description>Job Location: Remote
+Level: Mid- Senior
+Payara is an international open-source software company serving clients around the globe. We provide industry-leading expertise and services that enable our users across a diverse range of industries to create world-class solutions. We were recent recipients of the prestigious ‘Queen&amp;rsquo;s Award for Enterprise, International Trade’.
+An exciting opportunity has arisen for an experienced Tech Writer to join the Marketing team within Payara. We are looking for a candidate with proven experience in open-source technical writing, creating documentation, blogs, guides and articles in a similar capacity.</description>
+    </item>
+    
     <item>
       <title>Senior Technical Writer @MongoDb Realm</title>
       <link>https://technicalwriterresources.pages.dev/post/realm/</link>
