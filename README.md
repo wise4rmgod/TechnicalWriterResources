@@ -6,8 +6,6 @@ We welcome contributions from the community! If you'd like to submit a new commu
 
 If you'd like to suggest a change to the data or the way it's organized here, please create an issue first so we can discuss it.
 
-Please note we have a code of conduct. Follow it in all your interactions with the project.
-
 # Pull Request Process
 
 - Update the README.md with any community writing programs you want to add or update.
