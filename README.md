@@ -1,8 +1,9 @@
 # Technical Writer Resources
 
 ## Speaker's Contribution
-I hope this message finds you well, I am reaching out because I want to start a free technical writing mentorship program by September. I need speakers to help the mentees. 
-This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA)  and [Mentorship content](https://docs.google.com/document/d/18KYaq9mts_ElizoYmvI9cvojhPy6i6PoNCJk8-GsYKA/edit?usp=sharing)
+HI,
+I need speakers to help the mentees. 
+This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) and [Mentorship content](https://docs.google.com/document/d/18KYaq9mts_ElizoYmvI9cvojhPy6i6PoNCJk8-GsYKA/edit?usp=sharing)
 
 ### Contributions
 - Pick a week you can contribute to and submit your contribution via this [GitHub repo](https://github.com/wise4rmgod/TechnicalWriterResources).
