@@ -7,12 +7,14 @@ This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) 
 
 ### Contributions
 - Pick a week you can contribute to and submit your contribution via this [GitHub repo](https://github.com/wise4rmgod/TechnicalWriterResources).
+- Fork this repository to create a pull request
+- You should add your file in the folder `content` -> `post`
 - At least submit a week before your speaking date.
 - You will submit it in markdown format.
 - The file name should correspond to the week's content.
 - You can also adjust the content of each week.
 - You can DM or drop a comment for anything that is not clear.
-- You should add your file in the folder `content` -> `post`
+
 
 ## General Contribution
 
