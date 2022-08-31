@@ -12,6 +12,7 @@ This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) 
 - The file name should correspond to the week's content.
 - You can also adjust the content of each week.
 - You can DM or drop a comment for anything that is not clear.
+- You should add your file in the folder `content` -> `post`
 
 ## General Contribution
 
