@@ -1,6 +1,18 @@
 # Technical Writer Resources
 
-## Contributing
+## Speaker's Contribution
+I hope this message finds you well, I am reaching out because I want to start a free technical writing mentorship program by September. I need speakers to help the mentees. 
+This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA)  and [Mentorship content](https://docs.google.com/document/d/18KYaq9mts_ElizoYmvI9cvojhPy6i6PoNCJk8-GsYKA/edit?usp=sharing)
+
+### Contributions
+- Pick a week you can contribute to and submit your contribution via this [GitHub repo](https://github.com/wise4rmgod/TechnicalWriterResources).
+- At least submit a week before your speaking date.
+- You will submit it in markdown format.
+- The file name should correspond to the week's content.
+- You can also adjust the content of each week.
+- You can DM or drop a comment for anything that is not clear.
+
+## General Contribution
 
 We welcome contributions from the community! If you'd like to submit a new community writing job (fulltime, part-time or freelance), please make a pull request directly and we'll review it.
 
