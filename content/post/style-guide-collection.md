@@ -1,4 +1,10 @@
-# Style guides
++++
+author = "Barrie"
+title = "Style Guide"
+date = "2022-09-16"
+description = "Technical writing mentorship program fourth meetup"
++++
+## Style guides
 
 Submitted by <https://github.com/barriebyron> for the September 2022 mentoring program hosted by Wisdom. 
 
