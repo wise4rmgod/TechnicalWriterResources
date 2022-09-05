@@ -7,120 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Wisdom Nwokocha all rights reserved.</copyright>
-    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Technical Writer @Umee</title>
-      <link>https://technicalwriterresources.pages.dev/post/umee/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      <title>Great Documentation</title>
+      <link>https://technicalwriterresources.pages.dev/post/great-documentation/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://technicalwriterresources.pages.dev/post/umee/</guid>
-      <description>Job Location: Remote
-Level: Senior
-We’re looking for a candidate who thrives in a fast-paced, diverse environment. The Technical Writer will act as the bridge between our core dev team and the open source dev community. You are expected to produce top quality technical documentation.
-Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together.</description>
-    </item>
-    
-    <item>
-      <title>Technical Writer @ESLint</title>
-      <link>https://technicalwriterresources.pages.dev/post/eslint/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/eslint/</guid>
-      <description>Job Location: Remote
-Level: Senior
-ESLint is like spell check for code. Developers download ESLint more than 100M times each month to help find and fix problems in JavaScript and TypeScript code. Linters like ESLint give developers rapid feedback by pointing out problems interactively while editing code and automatically before changes are merged into projects. ESLint is used on more than 9M projects ranging from students learning to code to solo side projects to massive codebases at companies like Microsoft, Airbnb, Netflix, and Meta.</description>
-    </item>
-    
-    <item>
-      <title>Technical Writer @Payara</title>
-      <link>https://technicalwriterresources.pages.dev/post/payara/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/payara/</guid>
-      <description>Job Location: Remote
-Level: Mid- Senior
-Payara is an international open-source software company serving clients around the globe. We provide industry-leading expertise and services that enable our users across a diverse range of industries to create world-class solutions. We were recent recipients of the prestigious ‘Queen&amp;rsquo;s Award for Enterprise, International Trade’.
-An exciting opportunity has arisen for an experienced Tech Writer to join the Marketing team within Payara. We are looking for a candidate with proven experience in open-source technical writing, creating documentation, blogs, guides and articles in a similar capacity.</description>
-    </item>
-    
-    <item>
-      <title>Content producer @Non Fungible Labs</title>
-      <link>https://technicalwriterresources.pages.dev/post/nonfungible/</link>
-      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/nonfungible/</guid>
-      <description>Title: Content producer
-Job Location: Remote
-Level: Senior
-We are looking for a creative Content Producer to help us in the creation of an engaging and compelling podcast. As Content Producer, you will have the freedom to use your imagination and independent professional judgment in writing, producing, interviewing, taping, and broadcasting on-air content. This is a chance to build the podcast initiative from the ground up and make it the number one podcast on the new and ever evolving space of the metaverse and NFTs.</description>
-    </item>
-    
-    <item>
-      <title>Senior Content Writer @VenturePunk</title>
-      <link>https://technicalwriterresources.pages.dev/post/venturepunk/</link>
-      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/venturepunk/</guid>
-      <description>Job Location: Remote
-Level: Senior
-We’re hiring a founding Content Creator @ VenturePunk, an early-stage web3 product studio. It’s a unique opportunity to work with a proven founder and get on the ground floor of a seed-stage startup building multiple projects in crypto, NFTs, and the metaverse. This role is fully remote.
-Apply
-Subscribe to my newsletter for more jobs and writing tips in your email
-Subscribe here</description>
-    </item>
-    
-    <item>
-      <title>Senior Technical Writer @Adyen</title>
-      <link>https://technicalwriterresources.pages.dev/post/adyen/</link>
-      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/adyen/</guid>
-      <description>Title: Technical Writer
-Job Location: Remote
-Level: Senior
-Do you enjoy working on the nitty gritty, but also looking at the bigger picture? Do you love to break down complex text into easy to understand content? Are you able to shift focus and tone according to different audiences?
-Due to the growth of the company we are looking for multiple Technical Writers to join the team who understand the technical details and can write documentation for developers interested in integrating with our APIs or SDKs.</description>
-    </item>
-    
-    <item>
-      <title>Senior Technical Writer @Terra</title>
-      <link>https://technicalwriterresources.pages.dev/post/terra/</link>
-      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/terra/</guid>
-      <description>Job Location: Remote
-Level: Senior
-At its core, Terra is a platform for developers. Developers can build applications on top of the Terra blockchain for countless use cases in crypto.
-Apply
-Subscribe to my newsletter for more jobs and writing tips in your email
-Subscribe here</description>
-    </item>
-    
-    <item>
-      <title>Senior Technical Writer @MongoDb Realm</title>
-      <link>https://technicalwriterresources.pages.dev/post/realm/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/realm/</guid>
-      <description>Job Location: Remote
-Level: Senior
-The Documentation team is a hands-on and enthusiastic group of engineers who are passionate about teaching developers how to work with data and build applications. We are hiring a Technical Writer to help us create world-class educational content for MongoDB&amp;rsquo;s developer-focused products &amp;ndash; in particular, Atlas App Services, Realm (mobile database), and Atlas Device Sync.
-Apply
-Subscribe to my newsletter for more jobs and writing tips in your email</description>
-    </item>
-    
-    <item>
-      <title>Senior Technical Writer @Platform.sh</title>
-      <link>https://technicalwriterresources.pages.dev/post/platformsh/</link>
-      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://technicalwriterresources.pages.dev/post/platformsh/</guid>
-      <description>Title: Senior Technical Writer
-The Technical Writing &amp;amp; Education team is looking for a Senior Technical Writer to help with our public documentation. The job involves organizing, updating, and optimizing the materials we have to help developers use Platform.sh. The role reports to the Technical Education Manager.
-The hours for the role are flexible, but should ideally have at least some overlap with CET.
-Job Location: Remote
-Level: Senior
-Apply</description>
+      <guid>https://technicalwriterresources.pages.dev/post/great-documentation/</guid>
+      <description>Why is great documentation important? Important for scalability — first line of defense against the tsunami of user questions
+Great marketing tool – great documentation helps attract and sustain communities
+Reflection on the quality of the product. Poor and lazy documentation = poor quality product
+What makes great documentation? Detailed. Answers any questions the user might be thinking.
+Well organized (specific articles for specific purposes)
+Well-written (proper grammar, spelling, and punctuation)</description>
     </item>
     
   </channel>

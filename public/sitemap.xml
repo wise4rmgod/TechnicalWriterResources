@@ -3,49 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://technicalwriterresources.pages.dev/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://technicalwriterresources.pages.dev/tags/fulltime/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/tags/job/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+    <loc>https://technicalwriterresources.pages.dev/post/great-documentation/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://technicalwriterresources.pages.dev/post/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/tags/start-up/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/tags/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/umee/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/eslint/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/payara/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/nonfungible/</loc>
-    <lastmod>2022-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/venturepunk/</loc>
-    <lastmod>2022-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/adyen/</loc>
-    <lastmod>2022-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/terra/</loc>
-    <lastmod>2022-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/realm/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://technicalwriterresources.pages.dev/post/platformsh/</loc>
-    <lastmod>2022-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://technicalwriterresources.pages.dev/communities/</loc>
     <lastmod>2019-08-03T00:00:00+00:00</lastmod>
@@ -70,5 +34,7 @@
     <loc>https://technicalwriterresources.pages.dev/tags/index/</loc>
   </url><url>
     <loc>https://technicalwriterresources.pages.dev/series/</loc>
+  </url><url>
+    <loc>https://technicalwriterresources.pages.dev/tags/</loc>
   </url>
 </urlset>
