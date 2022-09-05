@@ -13,7 +13,7 @@ This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) 
 ```
  +++
 author = "Wisdom"
-title = "Senior Technical Writer @Accumulate"
+title = "Add topic here"
 date = "2022-08-01"
 description = "This is a technical writing introduction"
 +++
