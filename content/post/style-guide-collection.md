@@ -1,7 +1,7 @@
 +++
 author = "Barrie"
 title = "Style Guide"
-date = "2022-09-16"
+date = "2022-09-30"
 description = "Technical writing mentorship program fourth meetup"
 +++
 ## Style guides
