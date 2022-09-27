@@ -7,7 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Wisdom Nwokocha all rights reserved.</copyright>
-    <lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Essential Training - The Basics</title>
+      <link>https://technicalwriterresources.pages.dev/post/git-essential-basics/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/git-essential-basics/</guid>
+      <description>Git Essential Training: The Basics What is Git? Git is a software that allows you to: Keeps track of changes you make to your files and directories, it also keeps track of text changes. Git allows you to keep track of versions of your documents, it allows you to move back and forth between the versions of your document. The primary purpose of all version control systems is to manage source codes, this enables developers to manage the different versions of their codebase as they continue to add features.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Command Line Interface </title>
+      <link>https://technicalwriterresources.pages.dev/post/commandline-interface/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/commandline-interface/</guid>
+      <description>Windows has a shell OS which is CMD.EXE and Powershell. However, some linux command does not work on the windows command line. The windows powershell and CMD has different commands (and some of the same) with Bash, Zsh and other Unix-based shells. Thankfully, there are some Unix-based solution for windows, some of the most popular one’s are the Git-bash and WSL (Windows Subsystem for Linux). You can download and install any of them.</description>
+    </item>
+    
+    <item>
+      <title>Information Architecture and Topic-based writing </title>
+      <link>https://technicalwriterresources.pages.dev/post/informationarchitecture/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/informationarchitecture/</guid>
+      <description>Information architecture is arranging your information to ensure usability, readability, and information flow. Best way to ensure implementation of information architecture is arranging information logically, using self-explanatory headings.
+Arranging information on the basis type of content brings us to topic-based writing. A topic is an independent chunk of information that covers a single idea or task. Any information that you write can be grouped in to one of the following topic types:</description>
+    </item>
+    
     <item>
       <title>Introduction To Technical Writer</title>
       <link>https://technicalwriterresources.pages.dev/post/intro/</link>

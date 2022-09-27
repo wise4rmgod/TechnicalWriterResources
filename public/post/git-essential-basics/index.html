@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="not-ready text-sm lg:text-base" lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Git Essential Training - The Basics - TWR</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="Git Essential Training: The Basics What is Git? Git is a software that allows you to: Keeps track of changes you make to your files and directories, it also keeps track of text changes. Git allows you to keep track of versions of your documents, it allows you to move back and forth between the versions of your document. The primary purpose of all version control systems is to manage source codes, this enables developers to manage the different versions of their codebase as they continue to add features." />
+  <meta name="author" content="Gino Osahon" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://technicalwriterresources.pages.dev/main.min.css" />
+
+  
+  <script
+    defer
+    src="https://technicalwriterresources.pages.dev/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link
+    rel="preload"
+    as="image"
+    href="https://technicalwriterresources.pages.dev/theme.%7B%7B%20if%20site.Params.monoDarkIcon%20%7D%7Dsvg%7B%7B%20else%20%7D%7Dpng%7B%7B%20end%20%7D%7D"
+  />
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/51fa91ab36f4b340f7190becf634b9f2?s=160&amp;d=identicon" />
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://technicalwriterresources.pages.dev/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://technicalwriterresources.pages.dev/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://technicalwriterresources.pages.dev/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://technicalwriterresources.pages.dev/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Git Essential Training - The Basics" />
+<meta property="og:description" content="This is a training resource on the fundamentals of using Git" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://technicalwriterresources.pages.dev/post/git-essential-basics/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-09-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-09-24T00:00:00+00:00" />
+
+
+  
+  <meta itemprop="name" content="Git Essential Training - The Basics">
+<meta itemprop="description" content="This is a training resource on the fundamentals of using Git"><meta itemprop="datePublished" content="2022-09-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-09-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="2817">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git Essential Training - The Basics"/>
+<meta name="twitter:description" content="This is a training resource on the fundamentals of using Git"/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="https://technicalwriterresources.pages.dev/"
+      >TWR</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  <script>
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => htmlClass.remove('not-ready'), 10);
+
+    const setDark = (newDark) => {
+      metaTheme.setAttribute('content', newDark ? '#000' : '#fbfbfb');
+      htmlClass[newDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', newDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkVal = localStorage.getItem('dark');
+    setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../communities/"
+        >Communities</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../event/"
+        >Event</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../freelance/"
+        >Freelance</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="https://www.getrevue.co/profile/wise4rmgod"
+        >Newsletter</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../resources/"
+        >Resources</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="https://www.youtube.com/c/techtalkzzz"
+        >Youtube</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href=" https://twitter.com/joklinztech "
+        target="_blank"
+      ></a>
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href=" https://github.com/wise4rmgod "
+        target="_blank"
+      ></a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">Git Essential Training - The Basics</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Sep 24, 2022</time>
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Gino Osahon</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="git-essential-training-the-basics">Git Essential Training: The Basics</h1>
+<h2 id="what-is-git">What is Git?</h2>
+<h3 id="git-is-a-software-that-allows-you-to">Git is a software that allows you to:</h3>
+<ul>
+<li>Keeps track of changes you make to your files and directories, it also keeps track of text changes.</li>
+<li>Git allows you to keep track of versions of your documents, it allows you to move back and forth between the versions of your document.</li>
+</ul>
+<p>The primary purpose of all version control systems is to manage source codes, this enables developers to manage the different versions of their codebase as they continue to add features. VCS is also called source code management system.</p>
+<h3 id="other-examples-of-version-control">Other examples of version control:</h3>
+<ul>
+<li>File naming</li>
+<li>Microsoft word track changes</li>
+<li>Wikis</li>
+<li>Undo Cmd - z</li>
+</ul>
+<h3 id="history">History</h3>
+<p>There are five important version control systems that predates Git:</p>
+<ul>
+<li>Source code control system - developed in 1972 by AT&amp;T</li>
+<li>Revision control system - developed in 1982, and was open source</li>
+<li>Concurrent version system - it allows developers to make changes to multiple files or a project, a feature which was new to previous VCS. It was developed in 1986 - 1990, and was open source. More than one user can work on the same file at the same time, they can work concurrently. CVS also initiated the concept of repositories which can be on a server or local system.</li>
+<li>Apache subversion (SVN) - developed in the year 2000, and was open source. It could track text and images.</li>
+<li>BitKeeper SCM - Built in 2000, and was closed source</li>
+</ul>
+<p>Git - launched in April 2005. It was created by Linus Torvalds, Git was a replacement for BitKeeper, and was first used to manage Linux kernel source code. Git is a distributed version control system, it is open source and free. GitHub was launched in 2008, it’s purpose was to host Git repositories. GitHub was purchased by Microsoft in 2018.</p>
+<h3 id="distributed-version-control">Distributed version control.</h3>
+<ul>
+<li>Different users each maintain their own repositories instead of working from a central repository.</li>
+<li>Changes are stored as change set</li>
+<li>Git track changes, and not versions like CVS and SVN</li>
+<li>Change sets can be exchanged between repositories by merging changesets or applying patches</li>
+<li>There is no single master repository, just many working copies, and each with their own combination of change sets</li>
+<li>Encourages participation and forking of projects</li>
+<li>Developers can work independently, and submit change set for inclusion or rejection</li>
+</ul>
+<h3 id="installing-git-on-mac">Installing Git on Mac</h3>
+<ul>
+<li>New Apple Mac systems have pre-installed git</li>
+<li>Git Installer - go to Git website</li>
+<li><code>brew install git</code>, can be used to install git using homebrew.</li>
+<li>Using the <code>&quot;which git&quot;</code> command to find out which git you are using</li>
+<li>Using the <code>&quot;git --version&quot;</code> to find out the version of git installed</li>
+</ul>
+<h3 id="basic-configuration-of-git">Basic configuration of Git</h3>
+<p>System configuration - configuration applied to every user.</p>
+<ul>
+<li>Using <code>git config --global user.name &quot;Gino Osahon&quot;</code></li>
+<li>Using <code>git config --global user.email &quot;gino.osahon@gmail.com&quot;</code></li>
+<li>Use <code>git config --list</code> to list all of your configurations. If you do this, you will also find your user name and email that was set</li>
+<li>Using <code>git config user.name</code> to reveal the username of the user</li>
+<li>Using <code>git config user.emai</code>l to reveal the user email</li>
+</ul>
+<h3 id="git-autocompletion">Git autocompletion</h3>
+<ul>
+<li>Autocomplete helps you to type commands like file paths, branch names in Git.</li>
+<li>You start typing a word, and when you hit the tab key, Git then tries to guess based on the context, what the rest of the command is, or the file path. It saves a lot of typing</li>
+<li>Git auto completion is a separate script, and included inside the git source code repository on Github. github.com/git/git</li>
+<li>Git help is a very useful tool for finding out more information on how to use Git</li>
+<li>The man command brings up manual pages</li>
+</ul>
+<h3 id="enable-git-tab-autocomplete-for-zsh">Enable Git Tab Autocomplete for Zsh</h3>
+<p>New Macs use the Zsh shell by default. If you’re using Zsh, add the following line to the ~/.zshrc file and restart your Terminal application:</p>
+<p><code>autoload -Uz compinit &amp;&amp; compinit</code></p>
+<p>Alternatively, you can run the following two commands in your Terminal application to add the necessary line to the .zshrc file and restart your shell.</p>
+<p>echo &lsquo;autoload -Uz compinit &amp;&amp; compinit&rsquo; &raquo; ~/.zshrc
+source ~/.zshrc</p>
+<h3 id="initializing-a-repository">Initializing a repository</h3>
+<p><code>git init</code> command is used to initialize a project</p>
+<p>Where are Git files stored?</p>
+<ul>
+<li>Once you initialize a repository using <code>git init</code>, it creates a .git directory</li>
+<li><code>ls -la .git</code> commands opens the .git directory containing other directories and files. These are the files that git uses to do all it’s tracking</li>
+<li><code>cat .git/config</code> contains some configurations</li>
+<li><code>git add .</code> command is used to add all the changes that are in the current directory</li>
+<li>Period (.) is a shorthand for the current directory</li>
+<li>To commit the changes in the directory we use the command  <code>git commit -m “commit message” </code></li>
+<li>-m in the command means message</li>
+</ul>
+<h3 id="the-different-stages-of-making-changes-to-your-repository">The different stages of making changes to your repository</h3>
+<ul>
+<li>Make changes</li>
+<li>Add changes</li>
+<li>Commit changes to the repository with a message</li>
+</ul>
+<h3 id="writing-commit-messages-how-to-write-good-commit-messagesbest-practices">Writing commit messages (how to write good commit messages/best practices)</h3>
+<ul>
+<li>Write a short single line summary of what the changes (less than 50 character)</li>
+<li>Keep each line to less than 72 characters, the reason why is that users maybe viewing it on their computer or mobile device through Github</li>
+<li>Write your commit messages in present tense, and not past tense
+example: “Fix for a bug” or “fixes a bug”, not “fixed a bug”</li>
+<li>The commit message is a label for changes</li>
+<li>You can develop shorthand for your organization, for example you can begin each commit message with the following for whether you are committing a javascript or css, or is it bug fix
+“[css, or js]” “[bugfix]”</li>
+<li>Make sure your commit message is clear and descriptive
+<strong>Bad:</strong> “fix typo”
+<strong>Good:</strong> “add mixing hyphen in project section of HTML”
+<strong>Bad:</strong> “Update login code”
+<strong>Good:</strong> “Change user authentication to use Blowfish”</li>
+</ul>
+<h3 id="how-to-view-commit-logs-that-has-been-made-to-a-project">How to view commit logs that has been made to a project</h3>
+<ul>
+<li>Type the command git log</li>
+<li>The first number is the unique ID, every commit is given an ID so we can identify a particular commit that we might be interested in.</li>
+<li>Next is the author who made the commit, it shows the name and email</li>
+<li>Date commit was made</li>
+<li>Commit message</li>
+<li>git help log will show more about the commit command</li>
+<li>git log -n 3; will limit the number of commits given to the command which is 3</li>
+<li>git log —since=2019-01-0, this command will show all commits since 2019. You can limit commits until</li>
+<li>git log –grep=”init”: grep means we are going to globally search for regular expressions, it helps to search for commit messages. It will return any commits that have the string “init” in it.</li>
+</ul>
+<h3 id="key-concepts-and-architecture-to-enable-us-understand-how-git-works">Key concepts and architecture to enable us understand how Git works</h3>
+<h3 id="git-three-trees-architecture">Git three trees architecture</h3>
+<p>Two trees architecture is what is being used by previous version control system. We have the repository and working directory, we call them trees because they represent a file structure, at the top you have the project directory, and below, you can have more folders with files inside. We use checkout to create a new working directory, and after making changes to our working directory, we commit the changes back to the repository</p>
+<p><strong>Git</strong> uses a three tree architecture, it still has the repository, and the working directory or copy of the repository, but in between is another tree called staging index. When you make changes in your working directory, you use <code>git add .</code> to add the files before using <code>git commit -m</code> to commit to the main repository. The git add . command enables us to stage the files changed, it is possible to commit without using git add command, but that is the way it is done in two tree architecture.</p>
+<p>As we work with git, it is important to keep these three tree architecture in mind.</p>
+<ul>
+<li>Working directory which contains changes that may not be tracked by git yet</li>
+<li>Staging index, which contains changes we are about to commit</li>
+<li>Repository, this is what is being tracked by git.</li>
+</ul>
+<h3 id="git-workflow">Git Workflow</h3>
+<ul>
+<li><code>git add .</code> : the period (.) adds everything in the current working directory to the staging index.</li>
+<li><code>git add &lt;filename&gt;</code> : adds the specified file or this single file to the staging index</li>
+<li><code>git commit -m “”</code> is then used to push file to the repository</li>
+<li><code>git log</code> can then be used to view the commits made</li>
+</ul>
+<h3 id="hash-values-sha-1">Hash values (SHA-1)</h3>
+<ul>
+<li>Git generates a checksum for each change set, which is the hash value</li>
+<li>A checksum is a number that is generated by taking data and feeding it into a mathematical algorithm, so the checksum converts data into a simple number, and we call that simple number checksum.</li>
+<li>Same data put into the same mathematical algorithm, always returns the same result or checksum. This ensures data integrity, and this is inbuilt in git</li>
+<li>Data integrity is fundamental</li>
+<li>Each hash value is unique and directly tied to the changes inside it.</li>
+<li>The algorithm that git uses to create checksums is the SHA-1 hash algorithm.</li>
+<li>The number generated from the SHA-1 algorithm is a 40 character hexadecimal string (meaning it contains the numbers 0-9, and the letters a-f)</li>
+<li>git monitors not only our changes but also their history</li>
+</ul>
+<h3 id="the-head-pointer-in-git">The HEAD Pointer in Git</h3>
+<ul>
+<li>The HEAD pointer points to the tip of the current branch in a repository</li>
+<li>The HEAD references a point to a specific commit in the repository, as we make new commits, the pointer changes, or moves to point to a new commit.</li>
+<li>The HEAD always points to the parent of the next commit</li>
+<li>A new branch is a new set of code from what we are working on, and it will be separate from our master branch.</li>
+<li>Inside the .git directory, there is a file called HEAD. Inside it, you will find  (ls -la .git)</li>
+</ul>
+<h3 id="adding-file">Adding file</h3>
+<p>Using a text editor to add files. When you add a new file, your editor like VSCode works with git to turn them green, letting you know that the file is new.
+Untracked means that they are not in the git repository, git does not know anything about them, changes are not tracked.</p>
+<p><code>git add .</code>;  this will add all changes in the working directory into the staging area.
+<code>git add file name</code>. Can be used to add a single file</p>
+<h3 id="how-git-handles-files-that-have-been-edited">How git handles files that have been edited</h3>
+<p>The process of committing edits to files, is the same process as adding a new file. After editing a file, and saving it, you can use <code>git add file-name</code>, then <code>git commit -m &quot;&quot;</code> to move it to the staging area.</p>
+<h3 id="how-to-view-changes-in-a-committed-file">How to view changes in a committed file</h3>
+<p><code>git diff</code> command is used to view changes to a file in a common format, so we can see what those changes are. We use git diff to view changes in our working directory</p>
+<h3 id="view-only-staged-changes">View only staged changes</h3>
+<p>If you want git diff to show you changes in the staging area, you use <code>git diff –staged</code>. Staged command is an alias for cached, git diff –cached is used to do the same thing as git diff.</p>
+<h3 id="how-to-use-git-to-track-files-that-are-deleted">How to use git to track files that are deleted</h3>
+<p>There are two different technique used to delete files:</p>
+<ul>
+<li>The first is to just delete the file yourself from your IDE, or by simply moving the file to trash. You can then use <code>git rm filename</code> (same function as git add) to commit the deleted change operation to our repository</li>
+<li>The second technique, is to use <code>git rm nameOfFile</code> to remove the file permanently. If you want to keep a file around, you can drag the file to trash, and then use git rm to tell git about it, but if you want to permanently remove a file, you can simply just use <code>git rm fileName</code></li>
+</ul>
+<h3 id="how-to-track-moved-or-renamed-file-using-git">How to track moved or renamed file using git</h3>
+<p>The are two techniques for moving and renaming files:</p>
+<ul>
+<li>First is to make a change directly to the file name in the operating system.</li>
+<li>The second technique, we can do from command line, we can rename a file from command line. Moving a file, and renaming a file is the same thing, because moving a file to a new part is the same thing as renaming it. We can use <code>git mv fileName.txt newFileName.txt</code> to rename the file</li>
+</ul>
+<p>**A shortcut that allows you to stage and commit **</p>
+<p>If you already know that you want to commit everything, then you can skip the staging step, that is what the shortcut does. Instead of using <code>git add .</code>, and then <code>git commit</code>. You can use the shortcut. <code>git commit -a</code> option. <code>git commit -a</code> is same as <code>git commit –all</code>
+<code>git commit -a</code>: stages and commits all changes to tracked files
+<code>git commit -a</code>: does not include untracked files</p>
+<h3 id="how-to-view-a-previous-commit">How to view a previous commit</h3>
+<ul>
+<li>use &ldquo;<code>git checkout -- &lt;file&gt;...</code>&rdquo; to discard changes in working directory</li>
+<li>Type <code>git diff</code> to see what changes have been made</li>
+<li><code>git diff –color-words</code> will show you what exactly got changed</li>
+<li>Use git commit -am “changes you’ll like” to stage and commit the changes</li>
+<li>To view what is inside a commit, or what were the changes, use <code>git show &lt;SHA or ID of the commit&gt;</code>. Example, git show c4dc2ebf4dfe19f6e7d6fe1e72a60fb4efa7dc19 or c4dc2eb</li>
+</ul>
+<h3 id="how-to-compare-two-commits">How to compare two commits</h3>
+<p>You can use <code>git diff old commit..new commit</code>, to view the differences between two commits. Example: <code>git diff c4c2ebf..e34ge56 –color-words</code>. This will create a diff file, The HEAD will always point to the latest commit in a list of commits</p>
+<h3 id="multiline-commit-messages">Multiline commit messages</h3>
+<p>Use <code>git commit -a</code>, and hit enter
+It will open your text editor and a file where you can enter your commits messages.You can use git log –oneline to view only commit messages of all commits
+While git log shows a longer version of all commits.</p>
+<h3 id="making-atomic-commits">Making Atomic commits</h3>
+<ul>
+<li>An atomic commit is just a small commit</li>
+<li>Atomic commit only affect a single aspect</li>
+<li>Atomic commits makes commit easier to understand,  to work with and to find bugs</li>
+<li>It also improves collaboration with others</li>
+<li>To rename a file, use <code>git mv oldFileName NewFileName</code></li>
+<li>Use <code>git add fileName</code> to add multiple files to the staging area</li>
+<li>Use global search on your IDE to find a text in your project, and you can replace all at once</li>
+<li>Use <code>git status</code> always to see files that have changed</li>
+<li>Use atomic commits to separate changes made to a project, it makes it easier for collaborators to pull specific commits containing interested features</li>
+<li>Use <code>git diff fileName</code> to view changes to a file</li>
+<li>Always commit little changes, instead of committing bulk changes.</li>
+</ul>
+<h3 id="techniques-to-undo-changes-to-your-working-directory">Techniques to undo changes to your working directory</h3>
+<ul>
+<li>Use <code>git checkout  –fileName</code> to undo or discard changes to a file</li>
+<li>Undo changes made to staging area (unstagging)</li>
+<li>Use <code>git add fileName</code>* to add all files in the fileName directory</li>
+<li>Use <code>git reset HEAD fileName</code> to undo or discard changes made to the file</li>
+<li>Use <code>git checkout – </code>, to discard changes to the working directory</li>
+</ul>
+<h3 id="amending-commits-already-in-the-repository">Amending commits already in the repository</h3>
+<p>Git only allow amending or editing the most recent commit, the HEAD.
+Use <code>git commit –amend -m “new commit message”</code>,  to amend a commit message. The SHA for this commit will change</p>
+<h3 id="retrieving-old-versions-of-files">Retrieving old versions of files</h3>
+<p>Edits which undo changes should be a new commit
+Sometimes, it is helpful to retrieve an old version of a file, to go back into our commits, and find out what the file is about, and they go back to it
+Use <code>git checkout – commitSHA fileName</code>, to revert back to the original/old file before some other commits were made.</p>
+<h3 id="reverting-a-commit">Reverting a commit</h3>
+<p>In case you make a change to a file, and then commit, and you then realize that the changes in the commit was a mistake, you simply need to make a new commit that reverses it, since git creates SHA or ID for every commit. Use <code>git revert nameOfSHA</code> to revert to the commit with the SHA</p>
+<h3 id="removing-untracked-files">Removing Untracked files</h3>
+<p>Use <code>git clean -n or -f</code>, to remove untracked files
+-n will let you know that it would remove the following files, while -f permanently deletes the files
+<code>git clean -f or -n</code> will not remove files that have been staged using git add</p>
+<h3 id="use-gitignore-files">Use .gitignore files</h3>
+<ul>
+<li>.gitignore file contains a list of rules to determine which files that git should ignore. You can include the name of the files that you want git to ignore inside the .gitignore file</li>
+<li>Use # sign to leave a comment in the .gitignore file</li>
+<li>Blank lines are ignored</li>
+<li>Create a .gitignore file, and include all files that you want git to ignore like .log, .zip, .DS_Store, .gz, .log/ files for example</li>
+</ul>
+<h3 id="ideas-on-what-to-gitignore">Ideas on what to gitignore</h3>
+<ul>
+<li>Compiled source code</li>
+<li>Packages and compressed files</li>
+<li>Logs and databases</li>
+<li>Operating system generated files</li>
+<li>User-uploaded assets (images, PDFs, videos)</li>
+<li>Visit github.com/github/gitignore to get access to gitignore templates</li>
+</ul>
+<h3 id="globally-ignore-files">Globally ignore files</h3>
+<p>Ignoring files in all repositories
+Ignore files globally
+git config –global core.excludefiles ~/.gitignore_globally</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
+      href="https://technicalwriterresources.pages.dev/post/commandline-interface/"
+      ><span>Introduction to Command Line Interface </span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
+  <div class="mr-auto">
+    &copy; 2022
+    <a class="link" href="https://technicalwriterresources.pages.dev/">TWR</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a
+  >️
+  <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>
