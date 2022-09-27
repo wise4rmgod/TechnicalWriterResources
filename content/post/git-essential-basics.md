@@ -1,7 +1,7 @@
  +++
 author = "Gino Osahon"
 title = "Git Essential Training - The Basics"
-date = "2022-09-22"
+date = "2022-09-24"
 description = "This is a training resource on the fundamentals of using Git"
 +++
 
