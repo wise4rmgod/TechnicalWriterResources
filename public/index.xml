@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Wisdom Nwokocha all rights reserved.</copyright>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Markdown </title>
+      <link>https://technicalwriterresources.pages.dev/post/introduction-to-markdown/</link>
+      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/introduction-to-markdown/</guid>
+      <description>Markdown is a lightweight markup language that can be used to format plaintext text documents. It was created by John Gruber in 2004, it is now one of the world’s most popular markup languages.
+Markdown is not the same as using a WYSIWYG editor. To format words in an application like Microsoft Word, you click buttons, and the changes are immediately visible. Markdown does not work like that. When you create a Markdown-formatted file, you use Markdown syntax to indicate which words and phrases should be formatted differently.</description>
+    </item>
+    
     <item>
       <title>Git Essential Training - The Basics</title>
       <link>https://technicalwriterresources.pages.dev/post/git-essential-basics/</link>
