@@ -24,6 +24,11 @@ author = "wisdom"
 
 > Digital Ocean are looking for technical writers to write on linux system administration, linux tools, docker tutorials, security topics and others. You can be a Digital Ocean writer by applying in their website.
 
+- [Draft.dev](https://draft.dev/write) $315 to $578 per article
+
+> Draft.dev is currently hiring writers who possess skills in mobile development, golang and augmented reality. 
+
+
 
 - [Goldcast](https://jobs.lever.co/goldcast/454bbf41-a1ab-4b7c-b911-fc298b70d05a/apply)
 
