@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, Wisdom Nwokocha all rights reserved.</copyright>
-    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://technicalwriterresources.pages.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Wed development </title>
+      <link>https://technicalwriterresources.pages.dev/post/introduction-to-web-development/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/introduction-to-web-development/</guid>
+      <description>Overview of Web Development Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications. Before you can become a web developer, or start building those application, you need to understand the basics and fundamentals of web development.
+You can read through the complete beginner guide to web development on MDN</description>
+    </item>
+    
+    <item>
+      <title>Introduction to KnowledgeBase </title>
+      <link>https://technicalwriterresources.pages.dev/post/introduction-to-knowledgebase/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/introduction-to-knowledgebase/</guid>
+      <description>Agenda This deck covers the following topics:
+User Guides Troubleshooting Guides Installation Guides Integration Guides White-papers Knowledge base Importance of Technical Writing Drives the technical vision and attention on knowledge. Maps the information for any organization. Aligns processes with information. Brings up front the value of the resources. Highlights the obvious. Layers data based on history and evolution. Case Study- Stripe- What- https://stripe.com/docs How- https://support.stripe.com/ Where- https://stripe.com/docs/products </description>
+    </item>
+    
+    <item>
+      <title>Style Guide</title>
+      <link>https://technicalwriterresources.pages.dev/post/style-guide-collection/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://technicalwriterresources.pages.dev/post/style-guide-collection/</guid>
+      <description>Style guides Submitted by https://github.com/barriebyron for the September 2022 mentoring program hosted by Wisdom.
+I’m a word nerd and I love style guides. Learn more about me https://linktr.ee/barriebyron.
+In my daily work as a technical communicator, I don&amp;rsquo;t have to remember everything. Instead, I just remember where to look for the answers to my many questions. I rely on trusted style guides.
+I bookmark frequently visited pages in style guides on my web browser at work.</description>
+    </item>
+    
     <item>
       <title>Introduction to Markdown </title>
       <link>https://technicalwriterresources.pages.dev/post/introduction-to-markdown/</link>

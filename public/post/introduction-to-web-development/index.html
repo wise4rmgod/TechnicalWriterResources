@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="not-ready text-sm lg:text-base" lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Introduction to Wed development  - TWR</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="Overview of Web Development Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications. Before you can become a web developer, or start building those application, you need to understand the basics and fundamentals of web development.
+You can read through the complete beginner guide to web development on MDN" />
+  <meta name="author" content="Solomon" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://technicalwriterresources.pages.dev/main.min.css" />
+
+  
+  <script
+    defer
+    src="https://technicalwriterresources.pages.dev/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link
+    rel="preload"
+    as="image"
+    href="https://technicalwriterresources.pages.dev/theme.%7B%7B%20if%20site.Params.monoDarkIcon%20%7D%7Dsvg%7B%7B%20else%20%7D%7Dpng%7B%7B%20end%20%7D%7D"
+  />
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/51fa91ab36f4b340f7190becf634b9f2?s=160&amp;d=identicon" />
+  
+  
+
+  
+  <link rel="preload" as="image" href="https://technicalwriterresources.pages.dev/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://technicalwriterresources.pages.dev/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://technicalwriterresources.pages.dev/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://technicalwriterresources.pages.dev/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Introduction to Wed development " />
+<meta property="og:description" content="Technical writing mentorship program fifth meetup" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://technicalwriterresources.pages.dev/post/introduction-to-web-development/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-10-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-22T00:00:00+00:00" />
+
+
+  
+  <meta itemprop="name" content="Introduction to Wed development ">
+<meta itemprop="description" content="Technical writing mentorship program fifth meetup"><meta itemprop="datePublished" content="2022-10-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-10-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1283">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introduction to Wed development "/>
+<meta name="twitter:description" content="Technical writing mentorship program fifth meetup"/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="https://technicalwriterresources.pages.dev/"
+      >TWR</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  <script>
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => htmlClass.remove('not-ready'), 10);
+
+    const setDark = (newDark) => {
+      metaTheme.setAttribute('content', newDark ? '#000' : '#fbfbfb');
+      htmlClass[newDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', newDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkVal = localStorage.getItem('dark');
+    setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../communities/"
+        >Communities</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../event/"
+        >Event</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../freelance/"
+        >Freelance</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="https://www.getrevue.co/profile/wise4rmgod"
+        >Newsletter</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="../../resources/"
+        >Resources</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="https://www.youtube.com/c/techtalkzzz"
+        >Youtube</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href=" https://twitter.com/joklinztech "
+        target="_blank"
+      ></a>
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href=" https://github.com/wise4rmgod "
+        target="_blank"
+      ></a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">Introduction to Wed development </h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Oct 22, 2022</time>
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Solomon</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="overview-of-web-development">Overview of Web Development</h1>
+<p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.
+Before you can become a web developer, or start building those application, you need to understand the basics and fundamentals of web development.</p>
+<p>You can read through the complete beginner guide to web development on <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">MDN</a></p>
+<p>We will go further to explore different concepts that makes the web possible.</p>
+<h2 id="what-is-the-internet">What is the internet?</h2>
+<p>The Internet is a vast network that connects computers all over the world. Through the Internet, people can share information and communicate from anywhere with an Internet connection.</p>
+<p>The information that can be communicated on the internet are files such as text, videos, audios, images, and hyperlinked documents.</p>
+<p>This hyperlinked documents are sometimes refer to as a website.</p>
+<h2 id="what-is-a-website">What is a Website?</h2>
+<p>A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.</p>
+<h2 id="how-does-the-web-work">How does the web work?</h2>
+<p>How the web works is essential to how we understand web development, when computers connected to the internet, they can be called clients and servers. The clients sends request to the server, while the server processes the request and returns a response back to the client.</p>
+<p><img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png" alt="Client-Server Architecture"></p>
+<p>The image above shows the interactions between clients and the servers. The concept makes the web possible because it exchages information during the request/response process.</p>
+<h2 id="what-is-http-and-how-it-evolves">What is HTTP and how it evolves?</h2>
+<p>HTTP (HyperText Transfer Protocol) is a protocol for fetching resources such as HTML documents. It is the fundamental of any data exchange on the Web from browsing different pages, to sharing files, videos, images, or audios.</p>
+<h2 id="learn-domains-and-hosting">Learn domains and Hosting</h2>
+<p>Web hosting is a process of deploying your website to the web and making it public accessible. To achieve this, you have to purchase a domain name that will represent your unique website and a hosting space on any public storage(hosting) space provider.</p>
+<p>Examples of good hosting/cloud providers</p>
+<ul>
+<li>Amazon Web Services</li>
+<li>GCP (Google Cloud Provider)</li>
+<li>Verpex</li>
+<li>Whogohost</li>
+<li>GoDaddy</li>
+</ul>
+<h2 id="introduction-to-html">Introduction to HTML</h2>
+<p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is use to create web pages becuase it can be interpreted by the browser.</p>
+<p>Basic HTML Elements</p>
+<ul>
+<li>Headers
+<ul>
+<li>H1 =&gt; It is used to represent document biggest header</li>
+<li>H2 =&gt; It is used to represent document biggest header after H1</li>
+<li>H3 =&gt; It is used to represent document biggest header after H2</li>
+<li>H4 =&gt; It is used to represent document biggest header after H3</li>
+<li>H5 =&gt; It is used to represent document biggest header after H4</li>
+<li>H6 =&gt; It is used to represent document smallest header</li>
+</ul>
+</li>
+</ul>
+<p>Syntax</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt; This is the biggest header &lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h2</span>&gt; This is the biggest header after H1 &lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h3</span>&gt; This is the biggest header after H2 &lt;/<span style="color:#f92672">h3</span>&gt;
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h6</span>&gt; This is the smallest header &lt;/<span style="color:#f92672">h6</span>&gt;
+</span></span></code></pre></div><ul>
+<li>Paragraph (P) =&gt; This represent a single paragraph in a document.</li>
+</ul>
+<p>Syntax</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt; This is a long paragraph &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><p>You can learn more about HTML and find a list of all the HTML elements <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">here.</a></p>
+<h2 id="introduction-to-css">Introduction to CSS</h2>
+<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. When you combine CSS and HTML together, it&rsquo;s give beauty, color and sweet artistic to web pages.</p>
+<p>There are many CSS selectors such as:</p>
+<ul>
+<li>CSS Element Selector =&gt; Used to select HTML element by the element name.</li>
+</ul>
+<p>Syntax</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- HTML --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt; This is a paragraph &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- CSS --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>p {
+</span></span><span style="display:flex;"><span>  color: red;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>CSS Id Selector =&gt; Used to select HTML element by ID.</li>
+</ul>
+<p>Syntax:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- HTML --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;para&#34;</span>&gt; This is a paragraph &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- CSS --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>#para {
+</span></span><span style="display:flex;"><span>  color: red;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>CSS Class Selector =&gt; Used to select HTML element by class name.</li>
+</ul>
+<p>Syntax:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- HTML --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;para&#34;</span>&gt; This is a paragraph &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- CSS --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.para {
+</span></span><span style="display:flex;"><span>  color: red;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>You can learn more about CSS and find a list of all the CSS tags <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">here.</a></p>
+<h2 id="introduction-to-javascript">Introduction to JavaScript</h2>
+<p>JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It is used to add functionalities to the webpage.</p>
+<p>A simple usage of JavaScript could be to add datetime, process a form or chage state of a button.</p>
+<p>Here is a simple JavaScript code to change the color of the Paragraph defined above.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">p</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;para&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">color</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;green&#39;</span>
+</span></span></code></pre></div><h2 id="frontend-framework">Frontend Framework</h2>
+<p>A front-end framework is a scaffold for building your front end. It usually includes some way to structure your files (for example, via components or a CSS preprocessor), make AJAX requests, style your components, and associate data with DOM elements.</p>
+<h3 id="top-3-frontend-frameworks">Top 3 Frontend Frameworks</h3>
+<ul>
+<li>React</li>
+<li>Vue</li>
+<li>Angular</li>
+</ul>
+<h1 id="what-is-rest-api">What is REST API</h1>
+<p>REST stands for Representational State Transfer and was created by computer scientist Roy Fielding in 2000. While API stands for the Application Programming Interface.</p>
+<p>REST determines the structure of an API. There are specific rules developers need to commit to when designing an API.</p>
+<p>When we combine the API with the REST design rule we say that it is a RESTful API</p>
+<p>For an API to be considered RESTful, it must meet the following criteria:</p>
+<ul>
+<li>The client-server architecture is managed through HTTP(s).</li>
+<li>Cached data that simplifies the exchange of data between client and server.</li>
+<li>Clients should be able to use hyperlinks to access all other actions they may take.</li>
+<li>Client-server communication is stateless, which means no client information is kept between GET requests, and each request is separate and unrelated.</li>
+<li>Client messages have sufficient data and instructions to be processed by clients.</li>
+<li>A multi-tiered system that organizes servers of each type (responsible for security, load balancing)</li>
+</ul>
+<p>So basically a REST API is simply creating a medium that involves a set of rules that gives different programs access to communicate with each other.</p>
+<p>Now that we’ve known that REST API is simply a medium for two systems to communicate with each other.</p>
+<h2 id="api-design-best-practices">API Design Best Practices</h2>
+<ul>
+<li>REST API must Accept and Respond with JSON</li>
+<li>Use Nouns Instead of Verbs in Endpoints</li>
+<li>Use Plural Nouns For Name Collections</li>
+<li>Use Status Codes in Error Handling</li>
+<li>Use Resource Nesting</li>
+<li>Use Filtering, Sorting, and Pagination to Retrieve the Data Requested</li>
+<li>Use SSL for Security</li>
+<li>Use Versioning Strategy</li>
+<li>Well-compiled API Documentation</li>
+</ul>
+<p>You can explore in details all the best practices listed here on the <a href="https://masteringbackend.com/posts/api-design-best-practices">Masteringbackend blog.</a></p>
+<h1 id="design-api-docs-using-postman-and-open-api-spec">Design API Docs using Postman and Open API Spec</h1>
+<p>[PRACTICAL]</p>
+<p>Before we delve into Postman to create our first API documentation, let&rsquo;s explore Postman a little.</p>
+<h2 id="overview-of-postman">Overview of Postman</h2>
+<p><a href="https://www.postman.com/">Postman</a> is an API platform for developers to design, build, test and iterate their APIs. As of April 2022, Postman reports having more than 20 million registered users and 75,000 open APIs, which it says constitutes the world&rsquo;s largest public API hub.</p>
+<h1 id="what-is-open-api-spec">What is Open API Spec?</h1>
+<p>The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.</p>
+<p>An OpenAPI definition can then be used by documentation generation tools to display the API, code generation tools to generate servers and clients in various programming languages, testing tools, and many other use cases.</p>
+<p>Ypu can learn more about Open API Spec from the [official website.&rsquo;(https://swagger.io/specification/)</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
+      href="https://technicalwriterresources.pages.dev/post/introduction-to-knowledgebase/"
+      ><span>Introduction to KnowledgeBase </span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
+  <div class="mr-auto">
+    &copy; 2022
+    <a class="link" href="https://technicalwriterresources.pages.dev/">TWR</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a
+  >️
+  <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>
