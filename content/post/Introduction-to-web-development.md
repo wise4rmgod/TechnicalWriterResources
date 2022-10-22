@@ -1,7 +1,7 @@
 +++
 author = "Solomon"
 title = "Introduction to Wed development "
-date = "2022-10-01"
+date = "2022-10-22"
 description = "Technical writing mentorship program fifth meetup"
 +++
 # Overview of Web Development
