@@ -36,3 +36,16 @@ If you'd like to suggest a change to the data or the way it's organized here, pl
 - Update the README.md with any community writing programs you want to add or update.
 - Make sure the list of programs is still in alphabetical order.
 - Create the pull request and explain your changes. We'll merge it in or reply as quickly as possible.
+
+
+## Test the doc
+
+### Development server
+```
+hugo serve
+```
+
+### Build the doc
+```
+hugo
+```

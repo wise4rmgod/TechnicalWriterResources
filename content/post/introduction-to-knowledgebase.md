@@ -5,6 +5,7 @@ date = "2022-10-09"
 description = "Technical writing mentorship program fifth meetup"
 +++
 
+{{< youtube VZI3IKJhro0 >}}
 ## Agenda
 
 This deck covers the following topics:

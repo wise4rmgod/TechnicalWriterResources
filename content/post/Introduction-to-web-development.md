@@ -1,9 +1,11 @@
 +++
 author = "Solomon"
-title = "Introduction to Wed development "
+title = "Introduction to Web development "
 date = "2022-10-22"
 description = "Technical writing mentorship program fifth meetup"
 +++
+
+{{< youtube RNZT3ICPW1Y >}}
 
 Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.
 Before you can become a web developer, or start building those application, you need to understand the basics and fundamentals of web development.
