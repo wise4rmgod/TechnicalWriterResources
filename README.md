@@ -3,13 +3,13 @@
 ## Speaker's Contribution
 HI,
 I need speakers to help the mentees. 
-This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) and [Mentorship content](https://docs.google.com/document/d/18KYaq9mts_ElizoYmvI9cvojhPy6i6PoNCJk8-GsYKA/edit?usp=sharing)
+This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) and [Mentorship content](https://docs.google.com/document/d/18KYaq9mts_ElizoYmvI9cvojhPy6i6PoNCJk8-GsYKA/edit?usp=sharing).
 
 ### Contributions
 - Pick a week you can contribute to and submit your contribution via this [GitHub repo](https://github.com/wise4rmgod/TechnicalWriterResources).
-- Fork this repository to create a pull request
-- You should add your file in the folder `content` -> `post`
-- Add this at the beginning of your file and edit accordingly
+- Fork this repository to create a pull request.
+- You should add your file in the folder `content` -> `post`.
+- Add this at the beginning of your file and edit accordingly.
 ```
  +++
 author = "Wisdom"
