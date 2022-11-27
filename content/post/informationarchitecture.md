@@ -24,7 +24,7 @@ For example, if we are documenting authoring in markdown? A concept topic for th
 
 ## Task Topics 
 
-We use task topics to document procedural steps performa a task, or to document the stages within a high level process. A topic gives user information on, how to do something. Using the same example of authoring in Markdown, a task topic can be "Create a Markdown File".
+We use task topics to document procedural steps performed in a task, or to document the stages within a high level process. A topic gives user information on, how to do something. Using the same example of authoring in Markdown, a task topic can be "Create a Markdown File".
 
 A task consists of the following sections, and must contain numbered lists:
 
