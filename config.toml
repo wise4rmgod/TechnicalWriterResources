@@ -61,7 +61,7 @@ theme = "paper"
   [[menu.main]]
     identifier = "newsletter"
     name = "Newsletter"
-    url = "https://www.getrevue.co/profile/wise4rmgod"
+    url = "https://wisdomnwokocha.substack.com/"
     weight = 10
 
 [taxonomies]
