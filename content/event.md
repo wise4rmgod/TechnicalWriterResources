@@ -1,13 +1,9 @@
 +++
-title = "Event"
+title = "Assisgnments"
 description = "Writing communities"
-date = "2019-08-03"
+date = "20203-24-10"
 aliases = ["about-us", "contact"]
 author = "wisdom"
 +++
 
-[Technical writing tips for a successful interview](https://lu.ma/t4ou33z0)
-
-**Date:** 30th July 2022
-
-**Time:** 8PM GMT+1
+[API documentation assignments for beginners](https://docs.google.com/document/d/1fekHkMWF92ESHLznZfOFjtRgqRjBXFukZxthNjn98O0/edit?usp=sharing)
