@@ -38,7 +38,7 @@ This course is also being updated and maintained over time to provide concise an
 
 - [SEO for technical writers](https://seofordevs.com/)  
 
-Search engine optimization (SEO) has proved to be an important topic to know and master. Knowing how to play the cards right with SEO can land you tones of clicks on your website and drive you huge traffic to your website. Learning SEO as a technical writer can be a great skill to have under your belt. This will help you deliver content that is web optimized and that rank high in search engines.
+Search engine optimization (SEO) has proved to be an important topic to know and master. Knowing how to play the cards right with SEO can land you tons of clicks on your website and drive you huge traffic to your website. Learning SEO as a technical writer can be a great skill to have under your belt. This will help you deliver content that is web optimized and that rank high in search engines.
 
 Learning SEO will help tailor content to the right audience while also driving you huge traffic. This will enable many people to find your content.
 
