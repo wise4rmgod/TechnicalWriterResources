@@ -1,7 +1,7 @@
 # Technical Writer Resources
 
 ## Speaker's Contribution
-HI,
+Hi,
 I need speakers to help the mentees. 
 This is the program form [Mentorship form](https://forms.gle/Zcwt4ShCVghetCaCA) and [Mentorship content](https://docs.google.com/document/d/18KYaq9mts_ElizoYmvI9cvojhPy6i6PoNCJk8-GsYKA/edit?usp=sharing).
 
